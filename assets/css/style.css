@@ -50,6 +50,13 @@ li {
 
 }
 
+.navBar {
+	z-index:  1;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+}
+
 .nav:hover {
 	color: #909090;
 }
@@ -61,24 +68,24 @@ body {
 	background-image: url(../images/gaming-pattern.png);
 	align-content: center;
 	margin-top: 30px;
+	width: 960px;
+	margin-left: 100px;
 }
 
 
 .standard {
-	width: 960px;
-	margin: 0 auto;
 }
 
 #aboutme {
-	width: 650px;
+	width: 68%;
 	z-index: -1;
 	/*position: relative;*/
 	border: 1px solid #cccccc;
 	background-color: #ffffff;
 	/*left: 100px;*/
 	/*width: 650px;*/
-	padding: 10px;
-	float: left
+	padding: 20px;
+	float: left;
 }
 
 #img1 { 
@@ -101,8 +108,8 @@ h1 {
 
 h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	padding: 0 0 5px 0;
-	margin: 0 0 5px 0;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 10px 0;
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
 	border-width: 1px;
@@ -111,21 +118,96 @@ h3 {
 }
 
 #cwm {
-	width: 225px;
-	padding: 20px;
+	z-index: -1;
+	width: 20%;
+	height: 120px;
+	padding: 10px;
 	position: relative;
+	right: 0;
 	background-color: #ffffff;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #cccccc;
 	float: left;
-	margin-left: 10px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .img2 {
-	margin: 3px;
+	display: inline-block;
+	padding: 5px;
 	width: 50px;
-	height:50px;
+	height: 50px;
+}
+
+/* Contact form styling*/
+#button {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 75px;
+	height: 30px;
+}
+
+#contact {
+	width: 68%;
+	z-index: -1;
+	/*position: relative;*/
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	/*left: 100px;*/
+	/*width: 650px;*/
+	padding: 2%;
+	float: left;
+	line-height: 30px;
+}
+
+/* Portfolio Styling */
+
+#portfolio {
+	width: 49%;
+	z-index: -1;
+	/*position: relative;*/
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	/*left: 100px;*/
+	/*width: 650px;*/
+	padding: 20px;
+	float: left;
+}
+
+.container1 {
+	float: left;
+	position: relative;
+    text-align: center;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+
+.container2 {
+	float: left;
+	position: relative;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.container3 {
+	float: left;
+	position: relative;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+#text4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 200px;
+	padding: 7px 0 7px 0;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 * {box-sizing: border-box}
