@@ -31,7 +31,7 @@ li {
 .home{
 	color: #ffffff;
 	float: left;
-	padding: 30px 20px 30px 20px;
+	padding: 10px 30px 10px 30px;
 	margin: 0 0 0 100px;
 	background-color: #4aaaa5;
 	text-decoration: none;
@@ -39,6 +39,8 @@ li {
 }
 
 .nav {
+	position: relative;
+	right: 15%;
 	color: #d3d3d3;
 	display: block;
 	float: right;
@@ -119,8 +121,7 @@ h3 {
 
 #cwm {
 	z-index: -1;
-	width: 20%;
-	height: 120px;
+	width: 22%;
 	padding: 10px;
 	position: relative;
 	right: 0;
@@ -129,11 +130,13 @@ h3 {
 	border-width: 1px;
 	border-color: #cccccc;
 	float: left;
-	margin: 0 auto;
+	margin: 0 0 0 30px;
 	text-align: center;
 }
 
 .img2 {
+	position: relative;
+	top: 80%;
 	display: inline-block;
 	padding: 5px;
 	width: 50px;
@@ -164,7 +167,7 @@ h3 {
 /* Portfolio Styling */
 
 #portfolio {
-	width: 49%;
+	width: 54%;
 	z-index: -1;
 	/*position: relative;*/
 	border: 1px solid #cccccc;
@@ -180,7 +183,7 @@ h3 {
 	position: relative;
     text-align: center;
     color: white;
-    margin: 5px 5px 5px 5px;
+    margin: 20px 15px 15px 15px;
 }
 
 .container2 {
@@ -188,7 +191,7 @@ h3 {
 	position: relative;
     text-align: center;
     color: white;
-    margin: 5px;
+    margin:  20px 15px 15px 15px;
 }
 
 .container3 {
@@ -196,7 +199,7 @@ h3 {
 	position: relative;
     text-align: center;
     color: white;
-    margin: 5px;
+    margin:  20px 15px 15px 15px;
 }
 
 #text4 {
@@ -208,6 +211,15 @@ h3 {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.projects {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.projects:hover {
+	color: #ff00ff;
 }
 
 * {box-sizing: border-box}
